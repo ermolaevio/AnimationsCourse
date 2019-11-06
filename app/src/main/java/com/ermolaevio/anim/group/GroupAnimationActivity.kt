@@ -1,12 +1,10 @@
 package com.ermolaevio.anim.group
 
-import android.os.Build
 import android.os.Bundle
 import android.transition.Fade
 import android.transition.TransitionManager
 import android.view.View
 import android.widget.Button
-import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.constraintlayout.widget.Group
@@ -18,7 +16,6 @@ class GroupAnimationActivity : AppCompatActivity() {
     private lateinit var start: Button
     private lateinit var rootLayout: ConstraintLayout
 
-    @RequiresApi(Build.VERSION_CODES.KITKAT)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_group)
