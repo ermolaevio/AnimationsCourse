@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.ermolaevio.anim.activity2.ActivityA
+import com.ermolaevio.anim.constraintSet.ConstraintSetActivity
 import com.ermolaevio.anim.group.GroupAnimationActivity
 import com.ermolaevio.anim.group.LinearRelativeAnimationActivity
 import kotlinx.android.synthetic.main.activity_main.*
@@ -28,6 +29,12 @@ class MainActivity : AppCompatActivity() {
 
         openAnimBtn.setOnClickListener {
             Intent(this@MainActivity, ActivityA::class.java).apply {
+                startActivity(this)
+            }
+        }
+
+        constSetBtn4.setOnClickListener {
+            Intent(this@MainActivity, ConstraintSetActivity::class.java).apply {
                 startActivity(this)
             }
         }
