@@ -18,18 +18,14 @@ class LinearRelativeAnimationActivity : AppCompatActivity() {
             start.visibility = View.GONE
             linear_container.visibility = View.VISIBLE
 
-//            val lp = start.layoutParams
-//            lp.height = lp.height * 2
-//            start.layoutParams = lp
-
             Fade().apply {
-                duration = 3000
-                TransitionManager.beginDelayedTransition(root)
+                duration = 2000
+                TransitionManager.beginDelayedTransition(root, this)
             }
-//            image.visibility = View.VISIBLE
-//            username.visibility = View.VISIBLE
-//            password.visibility = View.VISIBLE
-//            login.visibility = View.VISIBLE
+            image.visibility = View.VISIBLE
+            username.visibility = View.VISIBLE
+            password.visibility = View.VISIBLE
+            login.visibility = View.VISIBLE
         }
     }
 }
