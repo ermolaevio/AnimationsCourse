@@ -1,4 +1,4 @@
-package com.ermolaevio.anim.constraintSet
+package com.ermolaevio.anim.ch1_constraint.constraintSet
 
 import android.os.Bundle
 import android.transition.ChangeBounds

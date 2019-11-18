@@ -18,12 +18,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".group.GroupAnimationActivity" />
-        <activity android:name=".group.LinearRelativeAnimationActivity" />
+        <activity android:name="com.ermolaevio.anim.ch1_constraint.group.GroupAnimationActivity" />
+        <activity android:name="com.ermolaevio.anim.ch1_constraint.group.LinearRelativeAnimationActivity" />
         <activity android:name=".activity2.ActivityA" />
         <activity android:name=".activity2.ActivityB" />
-        <activity android:name=".constraintSet.ConstraintSetActivity" />
-        <activity android:name=".lesson_5_Placeholder.PlaceholderActivity" />
+        <activity android:name="com.ermolaevio.anim.ch1_constraint.constraintSet.ConstraintSetActivity" />
+        <activity android:name="com.ermolaevio.anim.ch1_constraint.lesson_5_Placeholder.PlaceholderActivity" />
     </application>
 
 </manifest>

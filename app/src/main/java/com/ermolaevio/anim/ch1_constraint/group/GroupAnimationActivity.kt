@@ -1,4 +1,4 @@
-package com.ermolaevio.anim.group
+package com.ermolaevio.anim.ch1_constraint.group
 
 import android.os.Bundle
 import android.transition.Fade

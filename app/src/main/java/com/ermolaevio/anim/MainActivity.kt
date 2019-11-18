@@ -4,10 +4,10 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.ermolaevio.anim.activity2.ActivityA
-import com.ermolaevio.anim.constraintSet.ConstraintSetActivity
-import com.ermolaevio.anim.group.GroupAnimationActivity
-import com.ermolaevio.anim.group.LinearRelativeAnimationActivity
-import com.ermolaevio.anim.lesson_5_Placeholder.PlaceholderActivity
+import com.ermolaevio.anim.ch1_constraint.constraintSet.ConstraintSetActivity
+import com.ermolaevio.anim.ch1_constraint.group.GroupAnimationActivity
+import com.ermolaevio.anim.ch1_constraint.group.LinearRelativeAnimationActivity
+import com.ermolaevio.anim.ch1_constraint.lesson_5_Placeholder.PlaceholderActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

@@ -1,4 +1,4 @@
-package com.ermolaevio.anim.lesson_5_Placeholder
+package com.ermolaevio.anim.ch1_constraint.lesson_5_Placeholder
 
 import android.os.Bundle
 import android.transition.ChangeBounds
