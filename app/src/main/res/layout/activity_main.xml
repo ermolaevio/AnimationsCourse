@@ -46,4 +46,12 @@
         android:text="PlaceHolder"
         app:layout_constraintTop_toBottomOf="@+id/constSetBtn4" />
 
+    <Button
+        android:id="@+id/constSetBtn6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="ClassicAnim"
+        app:layout_constraintTop_toBottomOf="@+id/constSetBtn5" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
