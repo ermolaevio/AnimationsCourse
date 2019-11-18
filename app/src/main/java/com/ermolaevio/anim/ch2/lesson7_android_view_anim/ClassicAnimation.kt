@@ -11,7 +11,6 @@ import kotlinx.android.synthetic.main.activity_classic.*
 
 class ClassicAnimation : AppCompatActivity() {
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_classic)
@@ -27,8 +26,7 @@ class ClassicAnimation : AppCompatActivity() {
             // без этого анимация будет незаметна
             duration = 4000
         }
-        hello.setOnClickListener {
-            it.startAnimation(set)
-        }
+
+        hello.setOnClickListener { it.startAnimation(set) }
     }
 }
