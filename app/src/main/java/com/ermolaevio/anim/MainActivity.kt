@@ -7,6 +7,7 @@ import com.ermolaevio.anim.activity2.ActivityA
 import com.ermolaevio.anim.constraintSet.ConstraintSetActivity
 import com.ermolaevio.anim.group.GroupAnimationActivity
 import com.ermolaevio.anim.group.LinearRelativeAnimationActivity
+import com.ermolaevio.anim.lesson_5_Placeholder.PlaceholderActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -35,6 +36,12 @@ class MainActivity : AppCompatActivity() {
 
         constSetBtn4.setOnClickListener {
             Intent(this@MainActivity, ConstraintSetActivity::class.java).apply {
+                startActivity(this)
+            }
+        }
+
+        constSetBtn5.setOnClickListener {
+            Intent(this@MainActivity, PlaceholderActivity::class.java).apply {
                 startActivity(this)
             }
         }

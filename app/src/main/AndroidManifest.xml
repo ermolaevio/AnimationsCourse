@@ -23,6 +23,7 @@
         <activity android:name=".activity2.ActivityA" />
         <activity android:name=".activity2.ActivityB" />
         <activity android:name=".constraintSet.ConstraintSetActivity" />
+        <activity android:name=".lesson_5_Placeholder.PlaceholderActivity" />
     </application>
 
 </manifest>
