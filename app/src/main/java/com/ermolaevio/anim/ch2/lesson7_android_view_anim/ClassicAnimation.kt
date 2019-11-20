@@ -15,8 +15,11 @@ class ClassicAnimation : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_classic)
 
+        // относительно тек позиции
         val translateAnimation = TranslateAnimation(0f, 200f, 0f, 200f)
+        // поворт вокруг
         val rotateAnimation = RotateAnimation(0f, 360f)
+        // из нуля вью будет увеличина в 3 раза от исходного размера
         val scaleAnimation = ScaleAnimation(0f, 3f, 0f, 3f)
 
         val set = AnimationSet(this, null).apply {
