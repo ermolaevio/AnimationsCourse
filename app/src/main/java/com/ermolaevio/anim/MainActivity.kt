@@ -9,6 +9,7 @@ import com.ermolaevio.anim.ch1_constraint.group.GroupAnimationActivity
 import com.ermolaevio.anim.ch1_constraint.group.LinearRelativeAnimationActivity
 import com.ermolaevio.anim.ch1_constraint.lesson_5_Placeholder.PlaceholderActivity
 import com.ermolaevio.anim.ch2.lesson7_android_view_anim.ClassicAnimation
+import com.ermolaevio.anim.ch2.lesson9.AnimResourcesActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -49,6 +50,12 @@ class MainActivity : AppCompatActivity() {
 
         constSetBtn6.setOnClickListener {
             Intent(this@MainActivity, ClassicAnimation::class.java).apply {
+                startActivity(this)
+            }
+        }
+
+        constSetBtn7.setOnClickListener {
+            Intent(this@MainActivity, AnimResourcesActivity::class.java).apply {
                 startActivity(this)
             }
         }
