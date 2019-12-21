@@ -26,6 +26,8 @@
         <activity android:name="com.ermolaevio.anim.ch1_constraint.lesson_5_Placeholder.PlaceholderActivity" />
         <activity android:name=".ch2.lesson7_android_view_anim.ClassicAnimation" />
         <activity android:name=".ch2.lesson9.AnimResourcesActivity" />
+        <activity android:name=".ch2.lesson11.A_Activity" />
+        <activity android:name=".ch2.lesson11.B_Activity" />
     </application>
 
 </manifest>
