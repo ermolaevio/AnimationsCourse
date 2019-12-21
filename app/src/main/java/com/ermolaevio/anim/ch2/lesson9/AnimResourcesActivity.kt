@@ -17,9 +17,11 @@ class AnimResourcesActivity : AppCompatActivity() {
         start.setOnClickListener {
             val anim1 = AnimationUtils.loadAnimation(this, R.anim.animate_one)
             val anim2 = AnimationUtils.loadAnimation(this, R.anim.animate_two)
+            val anim3 = AnimationUtils.loadAnimation(this, R.anim.animate_root)
 
             it.startAnimation(anim1)
             heart.startAnimation(anim2)
+            constraintRoot.startAnimation(anim3)
         }
 
     }
