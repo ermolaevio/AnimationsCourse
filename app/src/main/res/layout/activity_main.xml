@@ -6,76 +6,97 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/constBtn"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:text="const button"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/relativeBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="relat and linear button"
-        app:layout_constraintTop_toBottomOf="@+id/constBtn" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-    <Button
-        android:id="@+id/openAnimBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Activity Anim"
-        app:layout_constraintTop_toBottomOf="@+id/relativeBtn" />
+            <Button
+                android:id="@+id/constBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:text="const button"
+                app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/constSetBtn4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Const Set"
-        app:layout_constraintTop_toBottomOf="@+id/openAnimBtn" />
+            <Button
+                android:id="@+id/relativeBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="relat and linear button"
+                app:layout_constraintTop_toBottomOf="@+id/constBtn" />
 
-    <Button
-        android:id="@+id/constSetBtn5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="PlaceHolder"
-        app:layout_constraintTop_toBottomOf="@+id/constSetBtn4" />
+            <Button
+                android:id="@+id/openAnimBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Activity Anim"
+                app:layout_constraintTop_toBottomOf="@+id/relativeBtn" />
 
-    <Button
-        android:id="@+id/constSetBtn6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="ClassicAnim"
-        app:layout_constraintTop_toBottomOf="@+id/constSetBtn5" />
+            <Button
+                android:id="@+id/constSetBtn4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Const Set"
+                app:layout_constraintTop_toBottomOf="@+id/openAnimBtn" />
 
-    <Button
-        android:id="@+id/constSetBtn7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="AnimFromResources"
-        app:layout_constraintTop_toBottomOf="@+id/constSetBtn6" />
+            <Button
+                android:id="@+id/constSetBtn5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="PlaceHolder"
+                app:layout_constraintTop_toBottomOf="@+id/constSetBtn4" />
 
-    <Button
-        android:id="@+id/constSetBtn8"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="CombineAnim"
-        app:layout_constraintTop_toBottomOf="@+id/constSetBtn7" />
+            <Button
+                android:id="@+id/constSetBtn6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="ClassicAnim"
+                app:layout_constraintTop_toBottomOf="@+id/constSetBtn5" />
 
-    <Button
-        android:id="@+id/constSetBtn9"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="BackgroundAnim"
-        app:layout_constraintTop_toBottomOf="@+id/constSetBtn8" />
+            <Button
+                android:id="@+id/constSetBtn7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="AnimFromResources"
+                app:layout_constraintTop_toBottomOf="@+id/constSetBtn6" />
+
+            <Button
+                android:id="@+id/constSetBtn8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="CombineAnim"
+                app:layout_constraintTop_toBottomOf="@+id/constSetBtn7" />
+
+            <Button
+                android:id="@+id/constSetBtn9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="BackgroundAnim"
+                app:layout_constraintTop_toBottomOf="@+id/constSetBtn8" />
+
+            <Button
+                android:id="@+id/constSetBtn10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="SimpleObjectAnimator"
+                app:layout_constraintTop_toBottomOf="@+id/constSetBtn9" />
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
