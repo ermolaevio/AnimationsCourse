@@ -28,6 +28,7 @@
         <activity android:name=".ch2.lesson9.AnimResourcesActivity" />
         <activity android:name=".ch2.lesson11.A_Activity" />
         <activity android:name=".ch2.lesson11.B_Activity" />
+        <activity android:name=".ch2.lesson12.BackgroundAnim" />
     </application>
 
 </manifest>
