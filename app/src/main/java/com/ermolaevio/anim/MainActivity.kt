@@ -15,6 +15,7 @@ import com.ermolaevio.anim.ch2.lesson9.AnimResourcesActivity
 import com.ermolaevio.anim.ch4.lesson16.SeveralAnimators
 import com.ermolaevio.anim.ch4.lesson15.SimpleAnimator
 import com.ermolaevio.anim.ch4.lesson17.SimpleViewProperty
+import com.ermolaevio.anim.ch4.lesson18.FromAnimatorResources
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -91,6 +92,12 @@ class MainActivity : AppCompatActivity() {
 
         constSetBtn12.setOnClickListener {
             Intent(this@MainActivity, SimpleViewProperty::class.java).apply {
+                startActivity(this)
+            }
+        }
+
+        constSetBtn13.setOnClickListener {
+            Intent(this@MainActivity, FromAnimatorResources::class.java).apply {
                 startActivity(this)
             }
         }

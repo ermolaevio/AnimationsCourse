@@ -12,7 +12,6 @@ class SimpleViewProperty : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_simple_view_property)
 
-
         /*
          * более простой способ работы с анимацией
          */

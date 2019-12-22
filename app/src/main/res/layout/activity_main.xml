@@ -112,6 +112,14 @@
                 android:text="SimpleViewProperty"
                 app:layout_constraintTop_toBottomOf="@+id/constSetBtn11" />
 
+            <Button
+                android:id="@+id/constSetBtn13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="FromAnimatorResources"
+                app:layout_constraintTop_toBottomOf="@+id/constSetBtn12" />
+
         </LinearLayout>
 
     </ScrollView>
