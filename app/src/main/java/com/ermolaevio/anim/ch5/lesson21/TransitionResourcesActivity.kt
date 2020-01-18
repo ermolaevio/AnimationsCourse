@@ -81,6 +81,17 @@ class TransitionResourcesActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     override fun onBackPressed() {
-        transitionMng.transitionTo(mainScene)
+        if (started) {
+            transitionMng.transitionTo(mainScene)
+            findViewById<View>(R.id.login).apply {
+                setOnClickListener(this@TransitionResourcesActivity)
+            }
+            findViewById<View>(R.id.signup).apply {
+                setOnClickListener(this@TransitionResourcesActivity)
+            }
+            started = false
+        } else {
+            super.onBackPressed()
+        }
     }
 }
