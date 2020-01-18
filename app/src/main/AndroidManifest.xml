@@ -37,6 +37,8 @@
         <activity android:name=".ch5.lesson21.TransitionResourcesActivity" />
         <activity android:name=".ch6.lesson24.ExplodeSlideTransition" />
         <activity android:name=".ch6.lesson25.CoordinatedSlideTransition" />
+        <activity android:name=".ch6.lesson27.ShareElementFrom" />
+        <activity android:name=".ch6.lesson27.ShareElementDetail" />
     </application>
 
 </manifest>

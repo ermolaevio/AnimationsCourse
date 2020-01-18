@@ -20,6 +20,7 @@ import com.ermolaevio.anim.ch5.lesson20.SimpleTransitionActivity
 import com.ermolaevio.anim.ch5.lesson21.TransitionResourcesActivity
 import com.ermolaevio.anim.ch6.lesson24.ExplodeSlideTransition
 import com.ermolaevio.anim.ch6.lesson25.CoordinatedSlideTransition
+import com.ermolaevio.anim.ch6.lesson27.ShareElementFrom
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -125,6 +126,12 @@ class MainActivity : AppCompatActivity() {
 
         constSetBtn17.setOnClickListener {
             Intent(this@MainActivity, CoordinatedSlideTransition::class.java).apply {
+                startActivity(this)
+            }
+        }
+
+        constSetBtn18.setOnClickListener {
+            Intent(this@MainActivity, ShareElementFrom::class.java).apply {
                 startActivity(this)
             }
         }
