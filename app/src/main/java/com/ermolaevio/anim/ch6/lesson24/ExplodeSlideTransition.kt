@@ -25,7 +25,6 @@ class ExplodeSlideTransition : AppCompatActivity() {
 
             TransitionManager.beginDelayedTransition(
                 findViewById(android.R.id.content),
-
 //                Explode()
                 Slide(Gravity.BOTTOM) // указывается в какую сторону view будет скрываться
             )
