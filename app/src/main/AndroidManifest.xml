@@ -36,6 +36,7 @@
         <activity android:name=".ch5.lesson20.SimpleTransitionActivity" />
         <activity android:name=".ch5.lesson21.TransitionResourcesActivity" />
         <activity android:name=".ch6.lesson24.ExplodeSlideTransition" />
+        <activity android:name=".ch6.lesson25.CoordinatedSlideTransition" />
     </application>
 
 </manifest>

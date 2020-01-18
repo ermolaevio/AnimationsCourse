@@ -2,4 +2,8 @@
     <string name="app_name">UdemyAnimationCourse</string>
     <string name="start">start</string>
     <string name="stop">stop</string>
+
+    <!--Lesson 25-->
+    <string name="description">A slide transition performs a sliding transition from the edge of the screen in a specified or default direction.</string>
+    <string name="animate">Animate</string>
 </resources>
