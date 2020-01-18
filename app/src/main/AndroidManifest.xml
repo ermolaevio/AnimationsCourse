@@ -34,6 +34,7 @@
         <activity android:name=".ch4.lesson17.SimpleViewProperty" />
         <activity android:name=".ch4.lesson18.FromAnimatorResources" />
         <activity android:name=".ch5.lesson20.SimpleTransitionActivity" />
+        <activity android:name=".ch5.lesson21.TransitionResourcesActivity" />
     </application>
 
 </manifest>
