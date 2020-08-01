@@ -13,6 +13,7 @@ import kotlinx.android.synthetic.main.activity_window_content_transition.*
 
 // Анимация переходов при открытии, закрытии активити с помощью window
 // програмный способ создания анимации. Можно прописать в теме приложения или активити.
+// подобные анимации можно добавлять для фрагментов 29 урок.
 class WindowContentTransition : AppCompatActivity() {
 
     @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
