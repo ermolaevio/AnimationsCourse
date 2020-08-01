@@ -39,6 +39,8 @@
         <activity android:name=".ch6.lesson25.CoordinatedSlideTransition" />
         <activity android:name=".ch6.lesson27.ShareElementFrom" />
         <activity android:name=".ch6.lesson27.ShareElementDetail" />
+        <activity android:name=".ch6.lesson28.WindowContentTransition" />
+        <activity android:name=".ch6.lesson28.WindowContentTransitionDetails" />
     </application>
 
 </manifest>

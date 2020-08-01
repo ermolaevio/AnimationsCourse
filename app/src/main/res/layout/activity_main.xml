@@ -12,16 +12,18 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
             android:paddingTop="50dp"
-            android:paddingBottom="50dp">
+            android:paddingBottom="50dp"
+            android:textAllCaps="false">
 
             <Button
                 android:id="@+id/constBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="const button"
+                android:text="Const button"
+                android:textAllCaps="false"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <Button
@@ -29,7 +31,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="relat and linear button"
+                android:text="Relat and linear button"
+                android:textAllCaps="false"
                 app:layout_constraintTop_toBottomOf="@+id/constBtn" />
 
             <Button
@@ -38,6 +41,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Activity Anim"
+                android:textAllCaps="false"
                 app:layout_constraintTop_toBottomOf="@+id/relativeBtn" />
 
             <Button
@@ -46,6 +50,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Const Set"
+                android:textAllCaps="false"
                 app:layout_constraintTop_toBottomOf="@+id/openAnimBtn" />
 
             <Button
@@ -54,6 +59,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="PlaceHolder"
+                android:textAllCaps="false"
                 app:layout_constraintTop_toBottomOf="@+id/constSetBtn4" />
 
             <Button
@@ -62,6 +68,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="ClassicAnim"
+                android:textAllCaps="false"
                 app:layout_constraintTop_toBottomOf="@+id/constSetBtn5" />
 
             <Button
@@ -70,6 +77,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="AnimFromResources"
+                android:textAllCaps="false"
                 app:layout_constraintTop_toBottomOf="@+id/constSetBtn6" />
 
             <Button
@@ -78,6 +86,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="CombineAnim"
+                android:textAllCaps="false"
                 app:layout_constraintTop_toBottomOf="@+id/constSetBtn7" />
 
             <Button
@@ -86,6 +95,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="BackgroundAnim"
+                android:textAllCaps="false"
                 app:layout_constraintTop_toBottomOf="@+id/constSetBtn8" />
 
             <Button
@@ -94,6 +104,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="SimpleObjectAnimator"
+                android:textAllCaps="false"
                 app:layout_constraintTop_toBottomOf="@+id/constSetBtn9" />
 
             <Button
@@ -102,6 +113,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="SeveralObjectAnimator"
+                android:textAllCaps="false"
                 app:layout_constraintTop_toBottomOf="@+id/constSetBtn10" />
 
             <Button
@@ -110,6 +122,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="SimpleViewProperty"
+                android:textAllCaps="false"
                 app:layout_constraintTop_toBottomOf="@+id/constSetBtn11" />
 
             <Button
@@ -118,6 +131,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="FromAnimatorResources"
+                android:textAllCaps="false"
                 app:layout_constraintTop_toBottomOf="@+id/constSetBtn12" />
 
             <Button
@@ -125,7 +139,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="SimpleTransition"
+                android:text="Simple Transition"
+                android:textAllCaps="false"
                 app:layout_constraintTop_toBottomOf="@+id/constSetBtn13" />
 
             <Button
@@ -133,7 +148,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="TransitionRes"
+                android:text="Transition Res"
+                android:textAllCaps="false"
                 app:layout_constraintTop_toBottomOf="@+id/constSetBtn14" />
 
             <Button
@@ -141,7 +157,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="ExplodeSlideTransition"
+                android:text="Explode Slide Transition"
+                android:textAllCaps="false"
                 app:layout_constraintTop_toBottomOf="@+id/constSetBtn14" />
 
             <Button
@@ -149,7 +166,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="CoordinatedESlideTransition"
+                android:text="Coordinated Slide Transition"
+                android:textAllCaps="false"
                 app:layout_constraintTop_toBottomOf="@+id/constSetBtn14" />
 
             <Button
@@ -157,7 +175,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="ShareElementBetweenActivities"
+                android:text="Share Element Between Activities"
+                android:textAllCaps="false"
+                app:layout_constraintTop_toBottomOf="@+id/constSetBtn14" />
+
+            <Button
+                android:id="@+id/constSetBtn19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Window content transition"
+                android:textAllCaps="false"
                 app:layout_constraintTop_toBottomOf="@+id/constSetBtn14" />
 
         </LinearLayout>
