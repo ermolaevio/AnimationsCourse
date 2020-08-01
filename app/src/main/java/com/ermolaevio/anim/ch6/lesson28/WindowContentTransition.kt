@@ -27,17 +27,16 @@ class WindowContentTransition : AppCompatActivity() {
         }
 
         startContentTransitions.setOnClickListener {
+            val options = ActivityOptionsCompat.makeSceneTransitionAnimation(this@WindowContentTransition)
+                    .toBundle()
             Intent(this, WindowContentTransitionDetails::class.java).apply {
-                startActivity(
-                    this,
-                    ActivityOptionsCompat.makeSceneTransitionAnimation(this@WindowContentTransition).toBundle()
-                )
+                startActivity(this, options)
             }
         }
     }
 }
 
-class WindowContentTransitionDetails: AppCompatActivity() {
+class WindowContentTransitionDetails : AppCompatActivity() {
 
     @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -45,6 +44,8 @@ class WindowContentTransitionDetails: AppCompatActivity() {
         setContentView(R.layout.activity_window_content_transition_details)
 
         Slide().also {
+            window.allowEnterTransitionOverlap = false // не перекрывать транзакцию пред активити при открытии
+            window.allowReturnTransitionOverlap = false // не перекрывать транзакцию пред активити при закрытии
             window.enterTransition = it // при старте
             window.returnTransition = it // при выходе
         }
