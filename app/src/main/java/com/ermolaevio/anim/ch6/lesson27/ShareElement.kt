@@ -2,7 +2,6 @@ package com.ermolaevio.anim.ch6.lesson27
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityOptionsCompat
 import androidx.core.util.Pair
@@ -24,9 +23,9 @@ class ShareElementFrom : AppCompatActivity() {
 
             val optionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(
                 this@ShareElementFrom,
-                Pair(sharedImage1 as View, "coffee1"),
-                Pair(sharedImage2 as View, "coffee2"),
-                Pair(description as View, "description")
+                Pair(sharedImage1, "coffee1"),
+                Pair(sharedImage2, "coffee2"),
+                Pair(description, "description")
             )
             startActivity(this, optionsCompat.toBundle())
         }
