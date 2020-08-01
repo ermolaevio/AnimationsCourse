@@ -7,14 +7,25 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/sharedImage"
+        android:id="@+id/sharedImage1"
         android:layout_width="0dp"
-        android:layout_height="300dp"
+        android:layout_height="200dp"
         android:scaleType="centerCrop"
-        android:transitionName="coffee"
+        android:transitionName="coffee1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/coffee" />
+
+    <ImageView
+        android:id="@+id/sharedImage2"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:transitionName="coffee2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sharedImage1"
         app:srcCompat="@drawable/coffee" />
 
     <TextView
@@ -27,5 +38,5 @@
         android:transitionName="description"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sharedImage" />
+        app:layout_constraintTop_toBottomOf="@+id/sharedImage2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

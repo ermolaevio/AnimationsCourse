@@ -15,17 +15,20 @@ class ShareElementFrom : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_share_element)
 
-        sharedImage.setOnClickListener {
+        sharedImage1.setOnClickListener { handleClick() }
+        sharedImage2.setOnClickListener { handleClick() }
+    }
 
-            Intent(this, ShareElementDetail::class.java).apply {
+    private fun handleClick() {
+        Intent(this, ShareElementDetail::class.java).apply {
 
-                val optionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(
-                    this@ShareElementFrom,
-                    Pair(sharedImage as View, "coffee"),
-                    Pair(description as View, "description")
-                )
-                startActivity(this, optionsCompat.toBundle())
-            }
+            val optionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(
+                this@ShareElementFrom,
+                Pair(sharedImage1 as View, "coffee1"),
+                Pair(sharedImage2 as View, "coffee2"),
+                Pair(description as View, "description")
+            )
+            startActivity(this, optionsCompat.toBundle())
         }
     }
 }
@@ -35,7 +38,5 @@ class ShareElementDetail : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_share_element_detail)
-
-
     }
 }

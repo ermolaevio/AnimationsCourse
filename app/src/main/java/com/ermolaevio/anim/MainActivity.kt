@@ -1,7 +1,9 @@
 package com.ermolaevio.anim
 
+import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.ermolaevio.anim.activity2.ActivityA
 import com.ermolaevio.anim.ch1_constraint.constraintSet.ConstraintSetActivity
@@ -12,8 +14,8 @@ import com.ermolaevio.anim.ch2.lesson11.A_Activity
 import com.ermolaevio.anim.ch2.lesson12.BackgroundAnim
 import com.ermolaevio.anim.ch2.lesson7_android_view_anim.ClassicAnimation
 import com.ermolaevio.anim.ch2.lesson9.AnimResourcesActivity
-import com.ermolaevio.anim.ch4.lesson16.SeveralAnimators
 import com.ermolaevio.anim.ch4.lesson15.SimpleAnimator
+import com.ermolaevio.anim.ch4.lesson16.SeveralAnimators
 import com.ermolaevio.anim.ch4.lesson17.SimpleViewProperty
 import com.ermolaevio.anim.ch4.lesson18.FromAnimatorResources
 import com.ermolaevio.anim.ch5.lesson20.SimpleTransitionActivity
@@ -130,10 +132,13 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        constSetBtn18.setOnClickListener {
-            Intent(this@MainActivity, ShareElementFrom::class.java).apply {
-                startActivity(this)
-            }
-        }
+        constSetBtn18.startActivityWhenClick(ShareElementFrom::class.java)
+    }
+}
+
+fun <T : Activity> Button.startActivityWhenClick(activityClazz: Class<T>) {
+    setOnClickListener {
+        val crn = context as? Activity ?: return@setOnClickListener
+        crn.startActivity(Intent(context, activityClazz))
     }
 }
