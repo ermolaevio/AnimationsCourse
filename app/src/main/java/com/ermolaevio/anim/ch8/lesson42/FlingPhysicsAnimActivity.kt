@@ -29,19 +29,20 @@ class FlingPhysicsAnimActivity : AppCompatActivity(), View.OnTouchListener {
                 override fun onGlobalLayout() {
                     if (playground.height <= 0) return
 
-                    val max = (playground.height - image1.height).toFloat()
+                    val maxY = (playground.height - image1.height).toFloat()
+                    val maxX = (playground.width - image1.width).toFloat()
 
                     detector1 = GestureDetectorCompat(
                         this@FlingPhysicsAnimActivity,
-                        CustomGestureListener(image1, 0f, max)
+                        CustomGestureListener(image1, 0f, maxY, 0f, maxX)
                     )
                     detector2 = GestureDetectorCompat(
                         this@FlingPhysicsAnimActivity,
-                        CustomGestureListener(image2, 0f, max)
+                        CustomGestureListener(image2, 0f, maxY, 0f, maxX)
                     )
                     detector3 = GestureDetectorCompat(
                         this@FlingPhysicsAnimActivity,
-                        CustomGestureListener(image3, 0f, max)
+                        CustomGestureListener(image3, 0f, maxY, 0f, maxX)
                     )
 
                     playground.viewTreeObserver.removeOnGlobalLayoutListener(this)
