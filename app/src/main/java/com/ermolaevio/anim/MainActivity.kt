@@ -25,6 +25,7 @@ import com.ermolaevio.anim.ch6.lesson25.CoordinatedSlideTransition
 import com.ermolaevio.anim.ch6.lesson27.ShareElementFrom
 import com.ermolaevio.anim.ch6.lesson28.WindowContentTransition
 import com.ermolaevio.anim.ch8.lesson42.FlingPhysicsAnimActivity
+import com.ermolaevio.anim.ch8.lesson43.SpringPhysicsAnimActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -137,6 +138,7 @@ class MainActivity : AppCompatActivity() {
         constSetBtn18.startActivityWhenClick(ShareElementFrom::class.java)
         constSetBtn19.startActivityWhenClick(WindowContentTransition::class.java)
         constSetBtn20.startActivityWhenClick(FlingPhysicsAnimActivity::class.java)
+        constSetBtn21.startActivityWhenClick(SpringPhysicsAnimActivity::class.java)
     }
 }
 

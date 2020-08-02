@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -23,8 +22,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Const button"
-                android:textAllCaps="false"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:textAllCaps="false" />
 
             <Button
                 android:id="@+id/relativeBtn"
@@ -32,8 +30,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Relat and linear button"
-                android:textAllCaps="false"
-                app:layout_constraintTop_toBottomOf="@+id/constBtn" />
+                android:textAllCaps="false" />
 
             <Button
                 android:id="@+id/openAnimBtn"
@@ -41,8 +38,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Activity Anim"
-                android:textAllCaps="false"
-                app:layout_constraintTop_toBottomOf="@+id/relativeBtn" />
+                android:textAllCaps="false" />
 
             <Button
                 android:id="@+id/constSetBtn4"
@@ -50,8 +46,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Const Set"
-                android:textAllCaps="false"
-                app:layout_constraintTop_toBottomOf="@+id/openAnimBtn" />
+                android:textAllCaps="false" />
 
             <Button
                 android:id="@+id/constSetBtn5"
@@ -59,8 +54,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="PlaceHolder"
-                android:textAllCaps="false"
-                app:layout_constraintTop_toBottomOf="@+id/constSetBtn4" />
+                android:textAllCaps="false" />
 
             <Button
                 android:id="@+id/constSetBtn6"
@@ -68,8 +62,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="ClassicAnim"
-                android:textAllCaps="false"
-                app:layout_constraintTop_toBottomOf="@+id/constSetBtn5" />
+                android:textAllCaps="false" />
 
             <Button
                 android:id="@+id/constSetBtn7"
@@ -77,8 +70,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="AnimFromResources"
-                android:textAllCaps="false"
-                app:layout_constraintTop_toBottomOf="@+id/constSetBtn6" />
+                android:textAllCaps="false" />
 
             <Button
                 android:id="@+id/constSetBtn8"
@@ -86,8 +78,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="CombineAnim"
-                android:textAllCaps="false"
-                app:layout_constraintTop_toBottomOf="@+id/constSetBtn7" />
+                android:textAllCaps="false" />
 
             <Button
                 android:id="@+id/constSetBtn9"
@@ -95,8 +86,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="BackgroundAnim"
-                android:textAllCaps="false"
-                app:layout_constraintTop_toBottomOf="@+id/constSetBtn8" />
+                android:textAllCaps="false" />
 
             <Button
                 android:id="@+id/constSetBtn10"
@@ -104,8 +94,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="SimpleObjectAnimator"
-                android:textAllCaps="false"
-                app:layout_constraintTop_toBottomOf="@+id/constSetBtn9" />
+                android:textAllCaps="false" />
 
             <Button
                 android:id="@+id/constSetBtn11"
@@ -113,8 +102,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="SeveralObjectAnimator"
-                android:textAllCaps="false"
-                app:layout_constraintTop_toBottomOf="@+id/constSetBtn10" />
+                android:textAllCaps="false" />
 
             <Button
                 android:id="@+id/constSetBtn12"
@@ -122,8 +110,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="SimpleViewProperty"
-                android:textAllCaps="false"
-                app:layout_constraintTop_toBottomOf="@+id/constSetBtn11" />
+                android:textAllCaps="false" />
 
             <Button
                 android:id="@+id/constSetBtn13"
@@ -131,8 +118,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="FromAnimatorResources"
-                android:textAllCaps="false"
-                app:layout_constraintTop_toBottomOf="@+id/constSetBtn12" />
+                android:textAllCaps="false" />
 
             <Button
                 android:id="@+id/constSetBtn14"
@@ -140,8 +126,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Simple Transition"
-                android:textAllCaps="false"
-                app:layout_constraintTop_toBottomOf="@+id/constSetBtn13" />
+                android:textAllCaps="false" />
 
             <Button
                 android:id="@+id/constSetBtn15"
@@ -149,8 +134,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Transition Res"
-                android:textAllCaps="false"
-                app:layout_constraintTop_toBottomOf="@+id/constSetBtn14" />
+                android:textAllCaps="false" />
 
             <Button
                 android:id="@+id/constSetBtn16"
@@ -158,8 +142,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Explode Slide Transition"
-                android:textAllCaps="false"
-                app:layout_constraintTop_toBottomOf="@+id/constSetBtn15" />
+                android:textAllCaps="false" />
 
             <Button
                 android:id="@+id/constSetBtn17"
@@ -167,8 +150,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Coordinated Slide Transition"
-                android:textAllCaps="false"
-                app:layout_constraintTop_toBottomOf="@+id/constSetBtn16" />
+                android:textAllCaps="false" />
 
             <Button
                 android:id="@+id/constSetBtn18"
@@ -176,8 +158,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Share Element Between Activities"
-                android:textAllCaps="false"
-                app:layout_constraintTop_toBottomOf="@+id/constSetBtn17" />
+                android:textAllCaps="false" />
 
             <Button
                 android:id="@+id/constSetBtn19"
@@ -185,8 +166,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Window content transition"
-                android:textAllCaps="false"
-                app:layout_constraintTop_toBottomOf="@+id/constSetBtn18" />
+                android:textAllCaps="false" />
 
             <Button
                 android:id="@+id/constSetBtn20"
@@ -194,8 +174,15 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Fling anim with gesture"
-                android:textAllCaps="false"
-                app:layout_constraintTop_toBottomOf="@+id/constSetBtn19" />
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/constSetBtn21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Spring anim with gesture"
+                android:textAllCaps="false" />
 
         </LinearLayout>
 
