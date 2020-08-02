@@ -28,7 +28,7 @@ class CoordinatedSlideTransition : AppCompatActivity() {
     }
 
     @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
-    override fun onOptionsItemSelected(item: MenuItem?): Boolean {
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
 
         for (i in 0 until linearLayout.childCount) {
             val view: View = linearLayout.getChildAt(i)

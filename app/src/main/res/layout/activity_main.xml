@@ -159,7 +159,7 @@
                 android:layout_marginTop="10dp"
                 android:text="Explode Slide Transition"
                 android:textAllCaps="false"
-                app:layout_constraintTop_toBottomOf="@+id/constSetBtn14" />
+                app:layout_constraintTop_toBottomOf="@+id/constSetBtn15" />
 
             <Button
                 android:id="@+id/constSetBtn17"
@@ -168,7 +168,7 @@
                 android:layout_marginTop="10dp"
                 android:text="Coordinated Slide Transition"
                 android:textAllCaps="false"
-                app:layout_constraintTop_toBottomOf="@+id/constSetBtn14" />
+                app:layout_constraintTop_toBottomOf="@+id/constSetBtn16" />
 
             <Button
                 android:id="@+id/constSetBtn18"
@@ -177,7 +177,7 @@
                 android:layout_marginTop="10dp"
                 android:text="Share Element Between Activities"
                 android:textAllCaps="false"
-                app:layout_constraintTop_toBottomOf="@+id/constSetBtn14" />
+                app:layout_constraintTop_toBottomOf="@+id/constSetBtn17" />
 
             <Button
                 android:id="@+id/constSetBtn19"
@@ -186,7 +186,16 @@
                 android:layout_marginTop="10dp"
                 android:text="Window content transition"
                 android:textAllCaps="false"
-                app:layout_constraintTop_toBottomOf="@+id/constSetBtn14" />
+                app:layout_constraintTop_toBottomOf="@+id/constSetBtn18" />
+
+            <Button
+                android:id="@+id/constSetBtn20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Fling anim with gesture"
+                android:textAllCaps="false"
+                app:layout_constraintTop_toBottomOf="@+id/constSetBtn19" />
 
         </LinearLayout>
 

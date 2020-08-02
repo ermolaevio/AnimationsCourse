@@ -41,6 +41,7 @@
         <activity android:name=".ch6.lesson27.ShareElementDetail" />
         <activity android:name=".ch6.lesson28.WindowContentTransition" />
         <activity android:name=".ch6.lesson28.WindowContentTransitionDetails" />
+        <activity android:name=".ch8.lesson42.FlingPhysicsAnimActivity" />
     </application>
 
 </manifest>
